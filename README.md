@@ -1,16 +1,88 @@
-# React + Vite
+🎬 React Movies DB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic movie browsing web application built using React.js that integrates with the TMDB (The Movie Database) API to fetch real-time movie data.
 
-Currently, two official plugins are available:
+🌐 Live Demo:
+https://kavyar-cloud.github.io/react-movies-db/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------------------
 
-## React Compiler
+🚀 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React Movies DB is a responsive frontend application that fetches real-time movie data from an external REST API and dynamically renders it using React components.
 
-## Expanding the ESLint configuration
+The application allows users to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-> View popular movies
+-> Search for movies
+-> See posters, ratings, and overviews
+-> Experience dynamic UI updates based on API responses
+
+----------------------------------------------
+
+🔗 API Integration
+
+This project integrates with:
+TMDB API
+
+Base URL:
+https://api.themoviedb.org/3
+
+
+Endpoints used:
+/movie/popular
+/search/movie
+
+Data fetching is handled using:
+fetch()
+
+Async/Await
+JSON parsing
+Query encoding with encodeURIComponent()
+
+---------------------------------------------
+
+🛠️ Tech Stack
+
+Frontend:
+-> React.js
+-> JSX
+-> JavaScript (ES6+)
+-> CSS3
+-> SVG assets
+
+Data Handling:
+-> JSON
+-> External REST API (TMDB)
+
+Deployment:
+-> GitHub Pages
+
+--------------------------------------------
+
+⚙️ Environment Setup
+
+To run locally:
+
+Clone repository
+git clone https://github.com/your-username/react-movies-db.git
+
+
+Navigate to folder
+cd react-movies-db
+
+
+Install dependencies
+npm install
+
+
+Create .env file in root:
+VITE_API_KEY=your_api_key_here
+
+
+Start development server
+npm run dev
+
+-----------------------------------------
+
+
