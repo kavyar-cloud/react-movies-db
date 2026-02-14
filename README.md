@@ -13,10 +13,10 @@ React Movies DB is a responsive frontend application that fetches real-time movi
 
 The application allows users to:
 
--> View popular movies
--> Search for movies
--> See posters, ratings, and overviews
--> Experience dynamic UI updates based on API responses
+- View popular movies
+- Search for movies
+- See posters, ratings, and overviews
+- Experience dynamic UI updates based on API responses
 
 ----------------------------------------------
 
@@ -45,18 +45,18 @@ Query encoding with encodeURIComponent()
 🛠️ Tech Stack
 
 Frontend:
--> React.js
--> JSX
--> JavaScript (ES6+)
--> CSS3
--> SVG assets
+- React.js
+- JSX
+- JavaScript (ES6+)
+- CSS3
+- SVG assets
 
 Data Handling:
--> JSON
--> External REST API (TMDB)
+- JSON
+- External REST API (TMDB)
 
 Deployment:
--> GitHub Pages
+- GitHub Pages
 
 --------------------------------------------
 
